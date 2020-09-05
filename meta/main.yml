@@ -1,0 +1,17 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: bigiq_app_merge_move
+  author: rjouhann
+  description: Move or merge an AS3 application service in BIG-IQ dashboard.
+  company: F5 Networks
+  license: Apache
+  min_ansible_version: 2.7
+  platforms:
+    - name: TMOS
+      versions:
+        - all
+  galaxy_tags:
+    - f5
+    - bigiq
