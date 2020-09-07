@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  role_name: bigiq_app_merge_move
+  role_name: bigiq_move_app_dashboard
   author: rjouhann
   description: Move or merge an AS3 application service in BIG-IQ dashboard.
   company: F5 Networks

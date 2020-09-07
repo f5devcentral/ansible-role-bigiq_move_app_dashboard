@@ -1,4 +1,4 @@
-# Ansible Role: bigiq_app_merge_move
+# Ansible Role: bigiq_move_app_dashboard
 
 Performs a series of steps needed to move an AS3 Application Service into an BIG-IQ Application in the BIG-IQ Dashboard.
 
@@ -47,7 +47,7 @@ Define the list of Application and Application services as you wish it to be gro
       tasks:
           - name: Move or merge an AS3 application service in BIG-IQ dashboard.
             include_role:
-              name: bigiq_app_merge_move
+              name: bigiq_move_app_dashboard
             vars:
                 apps: 
                 - name: App1
