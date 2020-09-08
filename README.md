@@ -1,6 +1,12 @@
 # Ansible Role: bigiq_move_app_dashboard
 
-Performs a series of steps needed to move an AS3 Application Service into an BIG-IQ Application in the BIG-IQ Dashboard.
+Performs a series of steps needed to move Application Service(s) within the BIG-IQ application 
+dashboard.
+
+This supports any type of applications such as AS3 or legacy application services.
+
+This role is perfect to use along with https://galaxy.ansible.com/f5devcentral/atc_deploy used 
+to deploy AS3 application services with BIG-IQ.
 
 ## Role Variables
 
@@ -18,7 +24,8 @@ for the **CM BIG-IQ** device.
           loginProviderName: tmos
           validate_certs: no
 
-Define the list of Application and Application services as you wish it to be grouped on the BIG-IQ dashboard.
+Define the list of application and application services as you wish it to be grouped on the 
+BIG-IQ application dashboard.
 
     apps: 
     - name: App1
@@ -45,7 +52,7 @@ Define the list of Application and Application services as you wish it to be gro
           validate_certs: no
 
       tasks:
-          - name: Move or merge an AS3 application service in BIG-IQ dashboard.
+          - name: Move AS3 application service(s) in BIG-IQ application dashboard.
             include_role:
               name: bigiq_move_app_dashboard
             vars:
