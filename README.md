@@ -29,11 +29,11 @@ BIG-IQ application dashboard.
 
     apps: 
     - name: App1
-        pins:
+      pins:
         - name: tenant1_app_service_1
         - name: tenant1_app_service_2
     - name: App2
-        pins:
+      pins:
         - name: tenant2_app_service_1
         - name: tenant2_app_service_2
 
@@ -58,11 +58,11 @@ BIG-IQ application dashboard.
             vars:
                 apps: 
                 - name: App1
-                    pins:
+                  pins:
                     - name: tenant1_app_service_1
                     - name: tenant1_app_service_2
                 - name: App2
-                    pins:
+                  pins:
                     - name: tenant2_app_service_1
                     - name: tenant2_app_service_2
             register: status
