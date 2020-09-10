@@ -54,7 +54,7 @@ BIG-IQ application dashboard.
       tasks:
           - name: Move AS3 application service(s) in BIG-IQ application dashboard.
             include_role:
-              name: bigiq_move_app_dashboard
+              name: f5devcentral.bigiq_move_app_dashboard
             vars:
                 apps: 
                 - name: App1
