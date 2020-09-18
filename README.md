@@ -22,7 +22,7 @@ for the **CM BIG-IQ** device.
           server_port: 443
           password: secret
           auth_provider: tmos
-          validate_certs: no
+          validate_certs: false
 
 Define the list of application and application services as you wish it to be grouped on the 
 BIG-IQ application dashboard.
@@ -49,7 +49,7 @@ BIG-IQ application dashboard.
           server_port: 443
           password: secret
           auth_provider: tmos
-          validate_certs: no
+          validate_certs: false
 
       tasks:
           - name: Move AS3 application service(s) in BIG-IQ application dashboard.
