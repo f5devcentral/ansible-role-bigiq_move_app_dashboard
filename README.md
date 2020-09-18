@@ -5,7 +5,7 @@ dashboard.
 
 This supports any type of applications such as AS3 or legacy application services.
 
-This role is perfect to use along with https://galaxy.ansible.com/f5devcentral/atc_deploy used 
+This role is perfect to use along with [F5 automation tool chain (ATC) deploy declaration](https://galaxy.ansible.com/f5devcentral/atc_deploy) galaxy role used 
 to deploy AS3 application services with BIG-IQ.
 
 ## Role Variables
