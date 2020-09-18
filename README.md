@@ -21,7 +21,7 @@ for the **CM BIG-IQ** device.
           server: 10.1.1.4
           server_port: 443
           password: secret
-          loginProviderName: tmos
+          auth_provider: tmos
           validate_certs: no
 
 Define the list of application and application services as you wish it to be grouped on the 
@@ -48,7 +48,7 @@ BIG-IQ application dashboard.
           server: "{{ ansible_host }}"
           server_port: 443
           password: secret
-          loginProviderName: tmos
+          auth_provider: tmos
           validate_certs: no
 
       tasks:
