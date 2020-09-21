@@ -58,7 +58,7 @@
     msg: "The CM device has not been setup. Please onboard the DCD device first."
   when: setupchk.json.isSystemSetup is not defined or not setupchk.json.isSystemSetup|bool
 
-- name: Show all objects to be pinned and deployed
+- name: Show all App Services to add into the Application in BIG-IQ dashboard
   vars:
     app: "{{ item.0.name }}"
     app_service: "{{ item.1.name }}"
