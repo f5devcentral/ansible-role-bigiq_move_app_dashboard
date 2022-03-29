@@ -4,10 +4,10 @@ timeout: 120
 
 apps: 
   - name: App1
-    pins:
+    pin:
       - name: tenant1_app_service_1
       - name: tenant1_app_service_2
   - name: App2
-    pins:
+    pin:
       - name: tenant2_app_service_1
       - name: tenant2_app_service_2
